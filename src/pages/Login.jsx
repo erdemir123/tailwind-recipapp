@@ -33,7 +33,7 @@ const Login = () => {
       }
       if (loginUser.length > 0) {
         localStorage.setItem("email", email);
-        navigate("/");
+        navigate("/home");
       }
     }
   };
